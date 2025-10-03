@@ -1,0 +1,11 @@
+# Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Config file with secrets
+config.py
+
+# IDE files
+.vscode/
+.idea/
