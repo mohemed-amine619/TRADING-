@@ -1,0 +1,14 @@
+MetaTrader5
+pandas
+numpy
+scikit-learn
+tensorflow
+openpyxl
+matplotlib
+seaborn
+ta
+joblib
+optuna
+requests
+streamlit
+python-telegram-bot

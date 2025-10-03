@@ -1,0 +1,218 @@
+2025-10-03 12:37:09,929 - INFO - ==============================================
+2025-10-03 12:37:11,503 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 12:37:11,504 - ERROR - An unexpected error occurred: MT5 initialize failed: (-2, 'Invalid "login" argument')
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 39, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 16, in fetch_data
+    mt5_connect()
+    ~~~~~~~~~~~^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 12, in mt5_connect
+    raise RuntimeError(f"MT5 initialize failed: {mt5.last_error()}")
+RuntimeError: MT5 initialize failed: (-2, 'Invalid "login" argument')
+2025-10-03 12:37:12,668 - INFO - ==============================================
+
+2025-10-03 12:40:00,106 - INFO - ==============================================
+2025-10-03 12:40:01,305 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 12:40:01,305 - ERROR - An unexpected error occurred: MT5 initialize failed: (-2, 'Invalid "login" argument')
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 39, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 16, in fetch_data
+    mt5_connect()
+    ~~~~~~~~~~~^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 12, in mt5_connect
+    raise RuntimeError(f"MT5 initialize failed: {mt5.last_error()}")
+RuntimeError: MT5 initialize failed: (-2, 'Invalid "login" argument')
+2025-10-03 12:40:02,526 - INFO - ==============================================
+
+2025-10-03 12:42:04,809 - INFO - ==============================================
+2025-10-03 12:42:06,094 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 12:42:06,095 - ERROR - An unexpected error occurred: MT5 initialize failed: (-2, 'Invalid "login" argument')
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 39, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 16, in fetch_data
+    mt5_connect()
+    ~~~~~~~~~~~^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 12, in mt5_connect
+    raise RuntimeError(f"MT5 initialize failed: {mt5.last_error()}")
+RuntimeError: MT5 initialize failed: (-2, 'Invalid "login" argument')
+2025-10-03 12:42:07,652 - INFO - ==============================================
+
+2025-10-03 12:44:49,703 - INFO - ==============================================
+2025-10-03 12:44:50,746 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 12:44:50,747 - ERROR - An unexpected error occurred: MT5 initialize failed: (-2, 'Invalid "login" argument')
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 39, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 16, in fetch_data
+    mt5_connect()
+    ~~~~~~~~~~~^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 12, in mt5_connect
+    raise RuntimeError(f"MT5 initialize failed: {mt5.last_error()}")
+RuntimeError: MT5 initialize failed: (-2, 'Invalid "login" argument')
+2025-10-03 12:44:51,974 - INFO - ==============================================
+
+2025-10-03 12:46:19,201 - INFO - ==============================================
+2025-10-03 12:46:20,521 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 12:46:20,522 - ERROR - An unexpected error occurred: MT5 initialize failed: (-2, 'Invalid "login" argument')
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 39, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 16, in fetch_data
+    mt5_connect()
+    ~~~~~~~~~~~^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 12, in mt5_connect
+    raise RuntimeError(f"MT5 initialize failed: {mt5.last_error()}")
+RuntimeError: MT5 initialize failed: (-2, 'Invalid "login" argument')
+2025-10-03 12:46:21,818 - INFO - ==============================================
+
+2025-10-03 12:48:31,059 - INFO - ==============================================
+2025-10-03 12:48:32,232 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 12:48:32,274 - ERROR - An unexpected error occurred: 'time'
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 39, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 20, in fetch_data
+    df['time'] = pd.to_datetime(df['time'], unit='s')
+                                ~~^^^^^^^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\pandas\core\frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\pandas\core\indexes\range.py", line 417, in get_loc
+    raise KeyError(key)
+KeyError: 'time'
+2025-10-03 12:48:33,477 - INFO - ==============================================
+
+2025-10-03 13:31:16,525 - INFO - ==============================================
+2025-10-03 13:31:16,527 - INFO - 🚀 Bot starting up...
+2025-10-03 13:31:17,543 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 13:31:17,579 - ERROR - An unexpected error occurred: Failed to fetch any data for symbol XAUUSD. Please ensure the symbol is in your MT5 Market Watch and the name is correct.
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 26, in main
+    raw_df = data_handler.fetch_data()
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 22, in fetch_data
+    raise RuntimeError(
+    ...<2 lines>...
+    )
+RuntimeError: Failed to fetch any data for symbol XAUUSD. Please ensure the symbol is in your MT5 Market Watch and the name is correct.
+2025-10-03 13:31:18,771 - INFO - 🛑 Bot shutting down.
+2025-10-03 13:31:18,772 - INFO - ==============================================
+
+2025-10-03 13:33:01,797 - INFO - ==============================================
+2025-10-03 13:33:01,797 - INFO - 🚀 Bot starting up...
+2025-10-03 13:33:02,949 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 13:33:03,573 - ERROR - An unexpected error occurred: module 'config' has no attribute 'TEST_SPLIT'
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 27, in main
+    X_train, y_train, X_test, y_test, scaler, feature_cols, split_idx = data_handler.prepare_data(raw_df)
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 57, in prepare_data
+    split_idx = int(len(features_df) * (1 - config.TEST_SPLIT))
+                                            ^^^^^^^^^^^^^^^^^
+AttributeError: module 'config' has no attribute 'TEST_SPLIT'
+2025-10-03 13:33:04,758 - INFO - 🛑 Bot shutting down.
+2025-10-03 13:33:04,759 - INFO - ==============================================
+
+2025-10-03 13:36:24,445 - INFO - ==============================================
+2025-10-03 13:36:24,446 - INFO - 🚀 Bot starting up...
+2025-10-03 13:36:25,723 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 13:36:25,956 - ERROR - An unexpected error occurred: module 'pandas' has no attribute 'np'
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 27, in main
+    X_train, y_train, X_test, y_test, scaler, feature_cols, split_idx = data_handler.prepare_data(raw_df)
+                                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 70, in prepare_data
+    X_train, y_train = build_sequences(X_train_scaled, y_train.values)
+                       ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\data_handler.py", line 80, in build_sequences
+    return pd.np.array(X), pd.np.array(y)
+           ^^^^^
+AttributeError: module 'pandas' has no attribute 'np'
+2025-10-03 13:36:27,619 - INFO - 🛑 Bot shutting down.
+2025-10-03 13:36:27,619 - INFO - ==============================================
+
+2025-10-03 13:39:18,272 - INFO - ==============================================
+2025-10-03 13:39:18,273 - INFO - 🚀 Bot starting up...
+2025-10-03 13:39:19,657 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 13:39:19,908 - INFO - Data prepared. Train shape: (7948, 48, 6)
+2025-10-03 13:39:19,908 - INFO - Step 2: Finding best model hyperparameters...
+2025-10-03 13:39:36,971 - WARNING - From C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-03 13:39:37,215 - ERROR - An unexpected error occurred: 'Trial' object has no attribute 'get_param'
+Traceback (most recent call last):
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\main.py", line 32, in main
+    best_params = model_builder.find_best_model(X_train, y_train)
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\model_builder.py", line 41, in find_best_model
+    study.optimize(lambda trial: optuna_objective(trial, X_train, y_train), n_trials=config.OPTUNA_TRIALS)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\optuna\study\study.py", line 490, in optimize
+    _optimize(
+    ~~~~~~~~~^
+        study=self,
+        ^^^^^^^^^^^
+    ...<7 lines>...
+        show_progress_bar=show_progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\optuna\study\_optimize.py", line 63, in _optimize
+    _optimize_sequential(
+    ~~~~~~~~~~~~~~~~~~~~^
+        study,
+        ^^^^^^
+    ...<8 lines>...
+        progress_bar=progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\optuna\study\_optimize.py", line 160, in _optimize_sequential
+    frozen_trial_id = _run_trial(study, func, catch)
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\optuna\study\_optimize.py", line 258, in _run_trial
+    raise func_err
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\optuna\study\_optimize.py", line 201, in _run_trial
+    value_or_values = func(trial)
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\model_builder.py", line 41, in <lambda>
+    study.optimize(lambda trial: optuna_objective(trial, X_train, y_train), n_trials=config.OPTUNA_TRIALS)
+                                 ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\model_builder.py", line 31, in optuna_objective
+    model = build_lstm_model(trial, input_shape=(X_train.shape[1], X_train.shape[2]))
+  File "C:\Users\mohamed.bougrioua\Desktop\trading\model_builder.py", line 15, in build_lstm_model
+    return_sequences=(i < hp.get_param('num_lstm_layers') - 1)
+                          ^^^^^^^^^^^^
+AttributeError: 'Trial' object has no attribute 'get_param'
+2025-10-03 13:39:39,403 - INFO - 🛑 Bot shutting down.
+2025-10-03 13:39:39,403 - INFO - ==============================================
+
+2025-10-03 13:42:09,771 - INFO - ==============================================
+2025-10-03 13:42:09,771 - INFO - 🚀 Bot starting up...
+2025-10-03 13:42:11,424 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 13:42:11,681 - INFO - Data prepared. Train shape: (7948, 48, 6)
+2025-10-03 13:42:11,681 - INFO - Step 2: Finding best model hyperparameters...
+2025-10-03 13:42:29,497 - WARNING - From C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-03 14:00:07,939 - INFO - 🛑 Bot shutting down.
+2025-10-03 14:00:07,939 - INFO - ==============================================
+
+2025-10-03 14:01:27,202 - INFO - ==============================================
+2025-10-03 14:01:27,203 - INFO - 🚀 Bot starting up...
+2025-10-03 14:01:28,531 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 14:01:28,731 - INFO - Data prepared. Train shape: (7948, 48, 6)
+2025-10-03 14:01:28,732 - INFO - Step 2: Finding best model hyperparameters...
+2025-10-03 14:02:01,486 - WARNING - From C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-10-03 14:55:50,387 - INFO - Step 3: Training final model...
+2025-10-03 14:56:16,369 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-03 14:56:36,068 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-03 14:56:55,899 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-10-03 14:59:15,141 - INFO - Step 4: Running backtest...
+2025-10-03 14:59:20,698 - INFO - 🛑 Bot shutting down.
+2025-10-03 14:59:20,698 - INFO - ==============================================
+
+2025-10-03 15:44:31,890 - INFO - ==============================================
+2025-10-03 15:44:31,891 - INFO - 🚀 Bot starting up...
+2025-10-03 15:44:32,770 - INFO - Step 1: Fetching and preparing data...
+2025-10-03 15:44:32,911 - INFO - Data prepared. Train shape: (7948, 48, 6)
+2025-10-03 15:44:32,911 - INFO - Step 2: Finding best model hyperparameters...
+2025-10-03 15:44:42,500 - WARNING - From C:\Users\mohamed.bougrioua\Desktop\trading\.venv\Lib\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
