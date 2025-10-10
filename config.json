@@ -1,0 +1,57 @@
+{
+    "account": {
+        "login": 261009880,
+        "password": "Amine2002@",
+        "server": "Exness-MT5Trial16"
+    },
+    "symbol": "BTCUSDm",
+    "timeframe_minutes": 5,
+    "n_bars": 200,
+    "model": {
+        "seq_len": 48,
+        "horizon": 6,
+        "label_threshold": 0.0012,
+        "test_split": 0.2,
+        "epochs": 40,
+        "batch": 60,
+        "buy_threshold": 0.55,
+        "sell_threshold": 0.45,
+        "feature_columns": [
+            "close",
+            "ret",
+            "ma5",
+            "ma10",
+            "ma20",
+            "rsi14",
+            "macd",
+            "atr14"
+        ]
+    },
+    "execution": {
+        "lot": 0.1,
+        "deviation": 80,
+        "sleep_seconds": 300,
+        "max_open_trades": 5,
+        "sl_distance_pct": 0.002,
+        "tp_multiplier": 3,
+        "take_profit_usd": 20.0
+    },
+    "telegram": {
+        "bot_token": "8423946950:AAEGBdt6Zv5DbovecaeAvciSJ2mpFgasi0U",
+        "chat_id": "6476316022"
+    },
+    "paths": {
+        "live_data_file": "data/btcusd_live.csv",
+        "trades_file": "data/trades.csv",
+        "predictions_file": "data/predictions.xlsx",
+        "model": "models/lstm_btc_model.h5",
+        "scaler": "models/scaler_btc.save",
+        "last_trained_file":"models/last_trained.txt",
+        "log_file": "logs/bot.log",
+        "model_lock_file": "models/model.lock"
+    },
+    "backtest": {
+        "start_date": "2024-01-01"
+    },
+    "run_live": true
+}
