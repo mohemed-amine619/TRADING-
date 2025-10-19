@@ -1,0 +1,14 @@
+open
+high
+low
+close
+tick_volume
+RSI_14
+MACD_12_26_9
+MACDh_12_26_9
+MACDs_12_26_9
+BBL_20_2.0_2.0
+BBM_20_2.0_2.0
+BBU_20_2.0_2.0
+BBB_20_2.0_2.0
+BBP_20_2.0_2.0

@@ -1,9 +1,0 @@
-# Virtual Environment
-.venv/
-__pycache__/
-*.pyc
-
-# Config file with secrets
-# IDE files
-.vscode/
-.idea/
